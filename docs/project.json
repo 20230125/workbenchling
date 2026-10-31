@@ -1,0 +1,8 @@
+{
+  "project_type": "web",
+  "sub_project_type": "",
+  "name": "我的工作台",
+  "app_slug": "my-life-workbench",
+  "version_description": "Add Capacitor Android app packaging",
+  "preview_type": "mobile"
+}
