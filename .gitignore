@@ -1,0 +1,28 @@
+# 依赖
+node_modules/
+.pnpm-store/
+
+# 构建产物
+dist/
+dist-web/
+dist-app/
+.single-dist/
+build/
+
+# Capacitor / Android
+frontend/android/app/build/
+frontend/android/build/
+frontend/android/.gradle/
+frontend/android/local.properties
+frontend/android/app/src/main/assets/public/
+frontend/android/capacitor-cordova-android-plugins/
+
+# 系统与编辑器
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.swp
+
+# 打包好的成品（不需要进仓库，APK 由 Actions 生成）
+*.zip
